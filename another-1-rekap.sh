@@ -10,7 +10,7 @@ echo " ▄▀▄▄▄▄▀  ▄▀▄▄▄▄       █  ▄▀  █   ▄▀
 echo "█     ▐   █    ▐     ▄▀  ▄▀   ▐   ▐   █    ▐            █     ▐   █    ▐   ";
 echo "▐         ▐         █    ▐            ▐                 ▐         ▐        ";
 echo -e "\e[0m"
-echo -e "\033[1;31m"
+echo -e "\033[1;33m"
 echo "Discord : XDexa#5062                                ";
 echo "Discuss Group Channel : Airdrop Sultan Indonesia    ";
 echo "Telegram : @dexa555                                ";
@@ -20,12 +20,12 @@ sleep 2
 echo
 # Set Vars
 if [ ! $NODENAME ]; then
-	read -p "YOUR NONE NAME : " NODENAME
+	read -p "YOUR NODE NAME : " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
 
 if [ ! $WALLET ]; then
-    read -p "YOUR WALLET NAME 👉  : " WALLET
+    read -p "YOUR WALLET NAME  : " WALLET
 	echo "export WALLET=$WALLET" >> $HOME/.bash_profile
 fi
 echo "export ANONE_CHAIN_ID=anone-testnet-1" >> $HOME/.bash_profile
